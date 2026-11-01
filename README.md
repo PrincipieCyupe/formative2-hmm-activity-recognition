@@ -44,9 +44,9 @@ Activities: **Standing, Walking, Jumping, Still**
 |---|---|---|---|
 | Standing | 10 | 5 / 5 | 97.0 s |
 | Walking | 10 | 5 / 5 | 100.0 s |
-| Jumping | 20 | 14 / 6 | 142.6 s |
+| Jumping | 20 | 14 / 6 | 149.1 s |
 | Still | 10 | 6 / 4 | 94.5 s |
-| **Total** | **50** | **30 / 20** | **434.1 s** |
+| **Total** | **50** | **30 / 20** | **440.6 s** |
 
 Every file is between 5 and 10 seconds long, and every activity has more than 1 minute 30 seconds of data.
 
@@ -99,7 +99,7 @@ For each activity, one 50 Hz and one 100 Hz recording are held out, 8 recordings
 * `test_sequence_1.csv`: 50 Hz session, order Still, Standing, Walking, Jumping
 * `test_sequence_2.csv`: 100 Hz session, reverse order Jumping, Walking, Standing, Still
 
-The remaining 41 recordings are chained into 8 training sessions that follow a daily routine.
+The remaining 42 recordings are chained into 8 training sessions that follow a daily routine.
 
 ## Results on Unseen Data
 
