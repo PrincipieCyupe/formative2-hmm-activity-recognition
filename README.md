@@ -46,7 +46,7 @@ Activities: **Standing, Walking, Jumping, Still**
 | Walking | 10 | 5 / 5 | 100.0 s |
 | Jumping | 20 | 14 / 6 | 142.6 s |
 | Still | 10 | 6 / 4 | 94.5 s |
-| **Total** | **49** | **30 / 19** | **434.1 s** |
+| **Total** | **50** | **30 / 20** | **434.1 s** |
 
 Every file is between 5 and 10 seconds long, and every activity has more than 1 minute 30 seconds of data.
 
