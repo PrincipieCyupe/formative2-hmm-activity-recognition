@@ -44,13 +44,13 @@ Activities: **Standing, Walking, Jumping, Still**
 |---|---|---|---|
 | Standing | 10 | 5 / 5 | 97.0 s |
 | Walking | 10 | 5 / 5 | 100.0 s |
-| Jumping | 19 | 14 / 5 | 142.6 s |
+| Jumping | 20 | 14 / 6 | 142.6 s |
 | Still | 10 | 6 / 4 | 94.5 s |
 | **Total** | **49** | **30 / 19** | **434.1 s** |
 
 Every file is between 5 and 10 seconds long, and every activity has more than 1 minute 30 seconds of data.
 
-**Video evidence:** one 5 second video per activity, showing my full body and face while recording: [add video folder link]
+**Video evidence:** one 5 second video per activity, showing my full body and face while recording: https://drive.google.com/drive/folders/1CiMgR2bdM4giCG9u0O8CGXf5go9VKFz_?usp=sharing
 
 ### Clean CSV format
 
@@ -129,10 +129,10 @@ The remaining 41 recordings are chained into 8 training sessions that follow a d
 
 ### Locally
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/PrincipieCyupe/formative2-hmm-activity-recognition.git
+cd formative2-hmm-activity-recognition
 pip install -r requirements.txt
-jupyter notebook Formative2_Hidden_Markov_Models_Principie.ipynb
+jupyter notebook Principie_Cyubahiro_Formative2_Hidden_Markov_Models.ipynb
 ```
 Run all cells from the repository root. Random seeds are fixed, so the results above are reproduced exactly.
 
